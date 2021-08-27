@@ -1,0 +1,14 @@
+body {
+	background-image: url("../img/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#main {
+	display: block;
+	width: 1266px;
+	margin: 50px 50px 50px 50px;
+	background-color: white;
+	opacity: 0.5;
+}
