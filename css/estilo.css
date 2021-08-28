@@ -1,14 +1,18 @@
 body {
+	position: relative;
+	height: 100%;
+
+	background-color: rebeccapurple;
 	background-image: url("../img/background.png");
-	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #main {
-	display: block;
-	width: 1266px;
-	margin: 50px 50px 50px 50px;
-	background-color: white;
+	height: 100%;
+	margin: 50px 100px 50px 100px;
+	background-color: mediumpurple;
 	opacity: 0.5;
 }
