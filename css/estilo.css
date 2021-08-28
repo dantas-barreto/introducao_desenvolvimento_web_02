@@ -1,4 +1,4 @@
-html body {
+body, html {
 	margin: 0;
 	font: 16px "Lato", sans-serif;
 	color: #777;
@@ -22,15 +22,9 @@ p {
 	margin-bottom: 20px;
 }
 
-a:link a:active a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
 	position: relative;
 	height: 100%;
-	opacity: 0.7;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -38,7 +32,13 @@ a:link a:active a:visited {
 }
 
 .caixa1 {
-	
+	background-image: url(../img/wallpaper.png);
+}
+
+iframe {
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
 .conteudo-titulo {
@@ -47,10 +47,11 @@ a:link a:active a:visited {
 	top: 45%;
 	width: 100%;
 	text-align: center;
+	opacity: 0.7;
 }
 
 .conteudo-titulo span.titulo {
-	color: #777;
+	color: #fff;
 	background-color: #111;
 	padding: 18px;
 	font-size: 25px;
